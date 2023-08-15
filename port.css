@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Dosis:wght@400;500&family=Exo+2:wght@300;400;500;600;700&family=Lato:ital@0;1&family=Merriweather&family=Spline+Sans+Mono:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252c57;
+    color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+
+nav {
+    justify-content: space-around;
+    display: flex;
+    height: 70px;
+    background-color: #1c1e38;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.p1 {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.first>div {
+    width: 50%;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-left: 50px;
+
+
+
+}
+
+.s1 {
+    font-size: 3.5rem;
+    margin-top: 20px;
+}
+
+.s2 img {
+    width: 80%;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul li a:hover {
+    font-size: 1.5rem;
+    color: rgb(130, 79, 146);
+}
+
+#sp1 {
+    color: rgb(181, 130, 229);
+}
+
+.second {
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+main hr {
+    background-color: aqua;
+    height: 1px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 100px;
+    font-size: 2.5rem;
+}
+
+.second .b1 {
+    background-color: azure;
+    height: 2px;
+    width: 90vw;
+    margin-top: 40px;
+    display: flex;
+}
+
+.second .ver {
+    height: 85px;
+    width: 1px;
+    background-color: azure;
+    margin: 0 135px;
+
+
+}
+
+.v1 {
+    position: relative;
+    top: 85px;
+    width: 190px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+
+
+}
+
+.v2 {
+    position: relative;
+    top: 85px;
+    width: 150px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+
+.v3 {
+    position: relative;
+    top: 85px;
+    width: 150px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+
+.v4 {
+    position: relative;
+    top: 85px;
+    width: 150px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+
+.btn1 {
+    padding: 15px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: 2px solid azure;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(189, 154, 222);
+    margin-top: 20px;
+}
+
+.btn2 {
+    padding: 15px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: 2px solid azure;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(189, 154, 222);
+    margin-top: 50px;
+}
+
+.btn1:hover {
+    background-color: rgb(152, 76, 223);
+
+}
+
+.btn2:hover {
+    background-color: rgb(152, 76, 223);
+}
+
+.academics {
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 50px;
+    font-size: 1.4rem;
+}
+
+.hr1 {
+    margin-top: 150px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.a1 {
+    margin-top: 30px;
+    margin-left: 280px;
+    margin-right: 150px;
+    font-size: 1.5rem;
+    border: 2px solid lavender;
+    padding: 25px;
+    background-color: rgb(189, 154, 222);
+    border-radius: 8px;
+}
+
+.a2 {
+    margin-top: 30px;
+    margin-left: 280px;
+    margin-right: 150px;
+    font-size: 1.5rem;
+    border: 2px solid lavender;
+    padding: 25px;
+    background-color: rgb(189, 154, 222);
+    border-radius: 8px;
+
+}
+
+
+.a3 {
+    margin-top: 30px;
+    margin-left: 280px;
+    margin-right: 150px;
+    font-size: 1.5rem;
+    border: 2px solid lavender;
+    padding: 25px;
+    background-color: rgb(189, 154, 222);
+    border-radius: 8px;
+}
+
+
+.projects {
+    margin-top: 50px;
+    justify-content: center;
+    font-size: 1.4rem;
+    display: flex;
+
+
+}
+
+
+.hr2 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.projects img {
+    height: 350px;
+
+    margin-top: 100px;
+    margin-left: 150px;
+    padding: 10px;
+    flex: 33.33%;
+
+
+
+}
+
+.projects h3 {
+    margin-left: 180px;
+    border: 4px solid rgb(222, 229, 235);
+    width: 350px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(176, 115, 233);
+    height: 50px;
+
+}
+
+footer {
+    background-color: rgb(210, 184, 234);
+    font-size: 1.5rem;
+    height: 300px;
+    margin-top: 200px;
+    color: rgb(4, 4, 91);
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.f1 ul {
+    list-style: none;
+}
+
+.f1 div {
+    width: 200px;
+}
+
+.socialMedia {
+    margin-top: 20px;
+
+}
